@@ -1,0 +1,23 @@
+{
+  "kind": "cloudflare::WorkerSubdomain",
+  "id": "url",
+  "fqn": "test-app/root/api-worker-1/test-app-root-api-worker-1/url",
+  "seq": 0,
+  "data": {},
+  "status": "created",
+  "output": {
+    "Symbol(alchemy::ResourceKind)": "cloudflare::WorkerSubdomain",
+    "Symbol(alchemy::ResourceID)": "url",
+    "Symbol(alchemy::ResourceFQN)": "test-app/root/api-worker-1/test-app-root-api-worker-1/url",
+    "Symbol(alchemy::ResourceScope)": {
+      "@scope": null
+    },
+    "Symbol(alchemy::ResourceSeq)": 0,
+    "url": "https://unavailable.alchemy.run"
+  },
+  "props": {
+    "scriptName": "test-app-root-api-worker-1",
+    "retain": false,
+    "dev": true
+  }
+}

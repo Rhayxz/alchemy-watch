@@ -1,0 +1,40 @@
+{
+  "kind": "cloudflare::Worker",
+  "id": "test-app-root-api-worker-1",
+  "fqn": "test-app/root/api-worker-1/test-app-root-api-worker-1",
+  "seq": 0,
+  "data": {},
+  "status": "updated",
+  "output": {
+    "Symbol(alchemy::ResourceKind)": "cloudflare::Worker",
+    "Symbol(alchemy::ResourceID)": "test-app-root-api-worker-1",
+    "Symbol(alchemy::ResourceFQN)": "test-app/root/api-worker-1/test-app-root-api-worker-1",
+    "Symbol(alchemy::ResourceScope)": {
+      "@scope": null
+    },
+    "Symbol(alchemy::ResourceSeq)": 0,
+    "entrypoint": "src/worker.ts",
+    "cwd": "apps/api-worker-1",
+    "adopt": true,
+    "type": "service",
+    "id": "test-app-root-api-worker-1",
+    "name": "test-app-root-api-worker-1",
+    "compatibilityDate": "2025-08-10",
+    "compatibilityFlags": [],
+    "format": "esm",
+    "bindings": {},
+    "createdAt": 1754850392993,
+    "updatedAt": 1754850665773,
+    "url": "http://localhost:1337",
+    "routes": [],
+    "domains": [],
+    "dev": {
+      "hasRemote": false
+    }
+  },
+  "props": {
+    "entrypoint": "src/worker.ts",
+    "cwd": "/home/me/projects/adlp/proof-of-concepts/alchemy-watch/apps/api-worker-1",
+    "adopt": true
+  }
+}

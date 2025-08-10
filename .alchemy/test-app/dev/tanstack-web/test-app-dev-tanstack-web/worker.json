@@ -1,0 +1,69 @@
+{
+  "kind": "cloudflare::Worker",
+  "id": "worker",
+  "fqn": "test-app/dev/tanstack-web/test-app-dev-tanstack-web/worker",
+  "seq": 1,
+  "data": {},
+  "status": "updated",
+  "output": {
+    "Symbol(alchemy::ResourceKind)": "cloudflare::Worker",
+    "Symbol(alchemy::ResourceID)": "worker",
+    "Symbol(alchemy::ResourceFQN)": "test-app/dev/tanstack-web/test-app-dev-tanstack-web/worker",
+    "Symbol(alchemy::ResourceScope)": {
+      "@scope": null
+    },
+    "Symbol(alchemy::ResourceSeq)": 1,
+    "cwd": "apps/web",
+    "adopt": true,
+    "bindings": {
+      "VITE_API_URL": "http://localhost:1337"
+    },
+    "noBundle": true,
+    "entrypoint": ".output/server/index.mjs",
+    "compatibilityFlags": [
+      "nodejs_compat"
+    ],
+    "name": "test-app-dev-tanstack-web",
+    "compatibilityDate": "2025-08-10",
+    "assets": {
+      "html_handling": "auto-trailing-slash",
+      "not_found_handling": "single-page-application",
+      "run_worker_first": false,
+      "directory": ".output/public"
+    },
+    "dev": {
+      "hasRemote": false
+    },
+    "type": "service",
+    "id": "worker",
+    "format": "esm",
+    "createdAt": 1754849511810,
+    "updatedAt": 1754850314160,
+    "url": "http://localhost:3000/",
+    "routes": [],
+    "domains": []
+  },
+  "props": {
+    "cwd": "apps/web",
+    "adopt": true,
+    "bindings": {
+      "VITE_API_URL": "http://localhost:1337"
+    },
+    "noBundle": true,
+    "entrypoint": ".output/server/index.mjs",
+    "compatibilityFlags": [
+      "nodejs_compat"
+    ],
+    "name": "test-app-dev-tanstack-web",
+    "compatibilityDate": "2025-08-10",
+    "assets": {
+      "html_handling": "auto-trailing-slash",
+      "not_found_handling": "single-page-application",
+      "run_worker_first": false,
+      "directory": ".output/public"
+    },
+    "dev": {
+      "url": "http://localhost:3000/"
+    }
+  }
+}

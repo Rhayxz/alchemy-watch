@@ -1,0 +1,95 @@
+{
+  "kind": "cloudflare::WranglerJson",
+  "id": "wrangler.jsonc",
+  "fqn": "test-app/root/tanstack-web/test-app-root-tanstack-web/wrangler.jsonc",
+  "seq": 0,
+  "data": {},
+  "status": "updated",
+  "output": {
+    "Symbol(alchemy::ResourceKind)": "cloudflare::WranglerJson",
+    "Symbol(alchemy::ResourceID)": "wrangler.jsonc",
+    "Symbol(alchemy::ResourceFQN)": "test-app/root/tanstack-web/test-app-root-tanstack-web/wrangler.jsonc",
+    "Symbol(alchemy::ResourceScope)": {
+      "@scope": null
+    },
+    "Symbol(alchemy::ResourceSeq)": 0,
+    "path": ".alchemy/local/wrangler.jsonc",
+    "worker": {
+      "cwd": "apps/web",
+      "adopt": true,
+      "bindings": {
+        "VITE_API_URL": "http://localhost:1337"
+      },
+      "noBundle": true,
+      "entrypoint": ".output/server/index.mjs",
+      "compatibilityFlags": [
+        "nodejs_compat"
+      ],
+      "name": "test-app-root-tanstack-web",
+      "compatibilityDate": "2025-08-10",
+      "assets": {
+        "html_handling": "auto-trailing-slash",
+        "not_found_handling": "single-page-application",
+        "run_worker_first": false,
+        "directory": ".output/public"
+      }
+    },
+    "assets": {
+      "binding": "ASSETS",
+      "directory": ".output/public"
+    },
+    "main": ".output/server/index.mjs",
+    "secrets": true,
+    "transform": {},
+    "spec": {
+      "name": "test-app-root-tanstack-web",
+      "main": "../../.output/server/index.mjs",
+      "compatibility_date": "2025-08-10",
+      "compatibility_flags": [
+        "nodejs_compat"
+      ],
+      "assets": {
+        "directory": "../../.output/public",
+        "binding": "ASSETS",
+        "not_found_handling": "single-page-application",
+        "html_handling": "auto-trailing-slash",
+        "run_worker_first": false
+      },
+      "vars": {
+        "VITE_API_URL": "http://localhost:1337"
+      }
+    },
+    "createdAt": 1754850665850,
+    "updatedAt": 1754850665850
+  },
+  "props": {
+    "path": ".alchemy/local/wrangler.jsonc",
+    "worker": {
+      "cwd": "apps/web",
+      "adopt": true,
+      "bindings": {
+        "VITE_API_URL": "http://localhost:1337"
+      },
+      "noBundle": true,
+      "entrypoint": ".output/server/index.mjs",
+      "compatibilityFlags": [
+        "nodejs_compat"
+      ],
+      "name": "test-app-root-tanstack-web",
+      "compatibilityDate": "2025-08-10",
+      "assets": {
+        "html_handling": "auto-trailing-slash",
+        "not_found_handling": "single-page-application",
+        "run_worker_first": false,
+        "directory": ".output/public"
+      }
+    },
+    "assets": {
+      "binding": "ASSETS",
+      "directory": ".output/public"
+    },
+    "main": ".output/server/index.mjs",
+    "secrets": true,
+    "transform": {}
+  }
+}
